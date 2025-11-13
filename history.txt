@@ -1,0 +1,452 @@
+    1  2025-11-10T15:41:28 hostname
+    2  2025-11-10T15:41:34 ssh int-2
+    3  2025-11-10T15:42:03 module avail git
+    4  2025-11-10T15:42:36 module load git/2.49.0-GCCcore-14.2.0
+    5  2025-11-10T15:42:51 git --version
+    6  2025-11-10T15:44:23 git config --global klarav "Klara"
+    7  2025-11-10T15:45:29 git config --global user.name "Klara"
+    8  2025-11-10T15:46:13 git config --global user.email "klara.vladimir192@gmail.com"
+    9  2025-11-10T15:47:16 git config --global core.editor "nano -w"
+   10  2025-11-10T15:47:32 git config --global init.defaultBranch main
+   11  2025-11-10T15:47:40 git config --global pull.rebase false
+   12  2025-11-10T15:47:56 git config --list
+   13  2025-11-10T15:54:05 ls -a ~/.ssh
+   14  2025-11-10T15:56:52 ssh-keygen -t ed25519 -C "klara.vladimir192@gmail.com"
+   15  2025-11-10T15:58:00 ls -a ~/.ssh
+   16  2025-11-10T15:58:22 ssh -T git@github.com
+   17  2025-11-10T15:58:44 cat ~/.ssh/id_ed25519.pub
+   18  2025-11-10T16:03:27 ssh -T git@github.com
+   19  2025-11-11T10:02:20 cd
+   20  2025-11-11T10:02:24 ls
+   21  2025-11-11T10:03:50 mkdir BIOS-IN5410
+   22  2025-11-11T10:03:53 ls
+   23  2025-11-11T10:03:58 cd BIOS-IN5410/
+   24  2025-11-11T10:04:03 mkdir fasta
+   25  2025-11-11T10:04:05 ls
+   26  2025-11-11T10:04:11 cd fasta/
+   27  2025-11-11T10:04:13 ls
+   28  2025-11-11T10:04:16 pwd
+   29  2025-11-11T10:15:40 scp 18SrRNA_Jalview_test.fasta ec-
+   30  2025-11-11T10:15:40 username@fox.educloud.no://fp/homes01/u01/ec-username/BIOS-IN5410/fasta/
+   31  2025-11-11T10:16:22 scp 18SrRNA_Jalview_test.fasta ec-username@fox.educloud.no://fp/homes01/u01/ec-username/BIOS-IN5410/fasta/
+   32  2025-11-11T10:19:29 scp 18SrRNA_Jalview_test.fasta ec-klarav@fox.educloud.no://fp/homes01/u01/ec-klarav/BIOS-IN5410/fasta/
+   33  2025-11-11T10:33:58 pwd
+   34  2025-11-11T10:34:02 ls
+   35  2025-11-11T10:37:40 pwd
+   36  2025-11-11T10:38:06 ls
+   37  2025-11-11T10:41:56 rm *.fasta
+   38  2025-11-11T10:41:58 ls
+   39  2025-11-11T10:43:49 pwd
+   40  2025-11-11T10:44:56 ls
+   41  2025-11-11T10:48:18 scp ec-klarav@fox.educloud.no://fp/homes01/u01/ec-klarav/BIOS-IN5410/fasta/*.fasta .
+   42  2025-11-11T10:48:25 ls
+   43  2025-11-11T10:57:28 unzip shell-novice-data.zip 
+   44  2025-11-11T10:57:45 ls
+   45  2025-11-11T10:57:53 cd data-shell/
+   46  2025-11-11T10:57:57 ls
+   47  2025-11-11T10:58:30 cd molecules/
+   48  2025-11-11T10:58:49 wc -l *.pdb 
+   49  2025-11-11T11:00:45 wc -l *.pdb > lengths
+   50  2025-11-11T11:02:15 ls
+   51  2025-11-11T11:04:45 wc -l *.pdb | sort -n | head -1
+   52  2025-11-11T11:12:04 wc -l *.pdb | sort -n | head -2
+   53  2025-11-11T11:36:13 pwd
+   54  2025-11-11T11:36:18 cd .
+   55  2025-11-11T11:36:20 pwd
+   56  2025-11-11T11:36:36 cd 
+   57  2025-11-11T11:36:52 cd BIOS-IN5410/fasta/data-shell/data
+   58  2025-11-11T11:36:54 ls
+   59  2025-11-11T11:37:30 uniq salmon.txt 
+   60  2025-11-11T11:39:37 sort salmon.txt | uniq
+   61  2025-11-11T11:40:05 cd
+   62  2025-11-11T11:40:07 ls
+   63  2025-11-11T11:40:13 cd BIOS-IN5410/
+   64  2025-11-11T11:40:14 ls
+   65  2025-11-11T11:40:31 cd fasta/
+   66  2025-11-11T11:40:32 ls
+   67  2025-11-11T11:40:47 cd data-shell/
+   68  2025-11-11T11:40:48 ls
+   69  2025-11-11T11:40:54 cd data/
+   70  2025-11-11T11:41:20 ls
+   71  2025-11-11T11:42:47 wc -l *.txt | sort -n | head -n 3 
+   72  2025-11-11T11:43:17 wc -l *.txt
+   73  2025-11-11T13:16:46 int-2
+   74  2025-11-11T13:18:26 ssh int-2
+   75  2025-11-11T13:37:27 module load git/2.49.0-GCCcore-14.2.0
+   76  2025-11-11T13:37:47 git --version
+   77  2025-11-11T13:38:11 pwd
+   78  2025-11-11T13:38:20 cd BIOS-IN5410/
+   79  2025-11-11T13:38:25 pwd
+   80  2025-11-11T13:39:21 mkdir recipes
+   81  2025-11-11T13:39:24 ls
+   82  2025-11-11T13:39:28 cd recipes
+   83  2025-11-11T13:39:46 git init
+   84  2025-11-11T13:40:26 ls
+   85  2025-11-11T13:40:49 ls -a
+   86  2025-11-11T13:41:19 git status
+   87  2025-11-11T13:42:30 cd
+   88  2025-11-11T13:42:33 cd BIOS-IN5410/
+   89  2025-11-11T13:42:34 ls
+   90  2025-11-11T13:42:44 cd recipes/
+   91  2025-11-11T13:42:47 ls -a
+   92  2025-11-11T13:42:54 mkdir desserts
+   93  2025-11-11T13:43:00 cd desserts
+   94  2025-11-11T13:43:02 git init
+   95  2025-11-11T13:43:05 ls -a
+   96  2025-11-11T13:44:33 pwd
+   97  2025-11-11T13:45:24 cd 
+   98  2025-11-11T13:45:28 cd BIOS-IN5410/
+   99  2025-11-11T13:45:30 cd recipes/
+  100  2025-11-11T13:45:37 rm -rf desserts/
+  101  2025-11-11T13:45:39 ls
+  102  2025-11-11T13:46:05 pwd
+  103  2025-11-11T13:46:09 ls -a
+  104  2025-11-11T13:46:53 nano guacamole.md
+  105  2025-11-11T13:47:19 ls
+  106  2025-11-11T13:47:28 cat guacamole.md 
+  107  2025-11-11T13:47:37 git status
+  108  2025-11-11T13:48:07 git add guacamole.md 
+  109  2025-11-11T13:48:17 git status
+  110  2025-11-11T13:48:53  git commit -m "Create initial structure for a Guacamole recipe"
+  111  2025-11-11T13:50:05 git status
+  112  2025-11-11T13:50:20 git log
+  113  2025-11-11T13:51:07 ls
+  114  2025-11-11T13:51:38 nano guacamole.md 
+  115  2025-11-11T13:52:14 cat guacamole.md 
+  116  2025-11-11T13:52:24 git status
+  117  2025-11-11T13:53:05 git diff
+  118  2025-11-11T13:53:51 git commit -m "Add ingredients for basic guacamole"
+  119  2025-11-11T13:54:03 git add guacamole.md 
+  120  2025-11-11T13:54:09 git commit -m "Add ingredients for basic guacamole"
+  121  2025-11-11T13:55:18 nano guacamole.md 
+  122  2025-11-11T13:55:39 cat guacamole.md 
+  123  2025-11-11T13:55:51 git diff
+  124  2025-11-11T13:56:05 git add guacamole.md 
+  125  2025-11-11T13:56:09 git diff
+  126  2025-11-11T13:56:21 git diff --staged
+  127  2025-11-11T13:56:50 git commit -m "Modify guacamole to the traditional recipe"
+  128  2025-11-11T13:57:21 git status
+  129  2025-11-11T13:57:36 git log
+  130  2025-11-11T13:58:47 git log -1
+  131  2025-11-11T13:59:02 git log --oneline
+  132  2025-11-11T13:59:21 git log --oneline --graph
+  133  2025-11-11T13:59:44 pwd
+  134  2025-11-11T13:59:48 mkdir cakes
+  135  2025-11-11T13:59:51 git status
+  136  2025-11-11T13:59:58 git add cakes
+  137  2025-11-11T14:00:01 git status
+  138  2025-11-11T14:01:11 touch cakes/brownie cakes/lemon_drizzle
+  139  2025-11-11T14:01:15 git status
+  140  2025-11-11T14:01:31 git add cakes
+  141  2025-11-11T14:01:35 git status
+  142  2025-11-11T14:01:51 git commit -m "Add some initial cakes"
+  143  2025-11-11T14:04:09 ls
+  144  2025-11-11T14:04:28 nano guacamole.md 
+  145  2025-11-11T14:05:11 cat guacamole.md 
+  146  2025-11-11T14:05:32 nano groceries.md
+  147  2025-11-11T14:05:51 cat groceries.md 
+  148  2025-11-11T14:06:10 git add guacamole.md groceries.md 
+  149  2025-11-11T14:06:39 git commit -m "Write prices for ingredients and their source"
+  150  2025-11-11T14:07:01 ls
+  151  2025-11-11T14:07:14 pwd
+  152  2025-11-11T14:07:16 cd
+  153  2025-11-11T14:07:18 cd BIOS-IN5410/
+  154  2025-11-11T14:07:20 ls
+  155  2025-11-11T14:07:23 cd bio
+  156  2025-11-11T14:07:30 mkdir bio
+  157  2025-11-11T14:07:31 ls
+  158  2025-11-11T14:07:35 cd bio
+  159  2025-11-11T14:07:39 nano me.txt
+  160  2025-11-11T14:08:09 git add me.txt
+  161  2025-11-11T14:08:34 cp bio /fp/homes01/u01/ec-klarav/BIOS-IN5410/recipes
+  162  2025-11-11T14:08:43 ls
+  163  2025-11-11T14:08:48 cd
+  164  2025-11-11T14:08:53 cd BIOS-IN5410/
+  165  2025-11-11T14:09:11 mv bio /recipes
+  166  2025-11-11T14:09:34 mv bio recipes
+  167  2025-11-11T14:09:38 pwd
+  168  2025-11-11T14:09:44 cd recipes/
+  169  2025-11-11T14:09:45 ls
+  170  2025-11-11T14:09:56 cd bio
+  171  2025-11-11T14:10:08 git add me.txt
+  172  2025-11-11T14:10:50 git commit -m "Created a short autobio"
+  173  2025-11-11T14:11:07 nano me.txt 
+  174  2025-11-11T14:11:45 git diff me.txt
+  175  2025-11-11T14:12:20 cd
+  176  2025-11-11T14:13:04 cd BIOS-IN5410/
+  177  2025-11-11T14:13:05 ls
+  178  2025-11-11T14:13:09 cd recipes/
+  179  2025-11-11T14:13:10 ls
+  180  2025-11-11T14:13:30 nano guacamole.md 
+  181  2025-11-11T14:14:13 cat guacamole.md 
+  182  2025-11-11T14:14:28 git diff HEAD guacamole.md
+  183  2025-11-11T14:16:09 git diff HEAD~1 guacamole.md
+  184  2025-11-11T14:16:32 git diff HEAD~2 guacamole.md
+  185  2025-11-11T14:16:55 git show HEAD~2 guacamole.md
+  186  2025-11-11T14:18:09 git show HEAD~1 guacamole.md
+  187  2025-11-11T14:18:16 git show HEAD~2 guacamole.md
+  188  2025-11-11T14:19:00 git add guacamole.md 
+  189  2025-11-11T14:19:19 git commit -m "Added extra ingredients"
+  190  2025-11-11T14:19:31 git show HEAD~2 guacamole.md
+  191  2025-11-11T14:20:17 git diff f22b25e3233b4645dabd0d81e651fe074bd8e73b guacamole.md
+  192  2025-11-11T14:20:57 [200~git diff f22b25e3233b4645dabd0d81e651fe074bd8e73b guacamole.md
+  193  2025-11-11T14:23:23 git log --oneline
+  194  2025-11-11T14:23:53 git diff 0dc0f7f guacamole.md
+  195  2025-11-11T14:25:28 git status
+  196  2025-11-11T14:25:59 git restore guacamole.md 
+  197  2025-11-11T14:26:02 cat guacamole.md 
+  198  2025-11-11T14:26:22 pwd
+  199  2025-11-11T14:26:24 ls
+  200  2025-11-11T14:26:44 rm -r bio
+  201  2025-11-11T14:26:46 ls
+  202  2025-11-11T14:26:57 cat guacamole.md 
+  203  2025-11-11T14:27:07 git restore guacamole.md 
+  204  2025-11-11T14:27:13 cat guacamole.md 
+  205  2025-11-11T14:27:34 git 
+  206  2025-11-11T14:33:23 git restore -s 0dc0f7f guacamole.md 
+  207  2025-11-11T14:33:29 cat guacamole.md 
+  208  2025-11-11T14:33:49 git status
+  209  2025-11-11T14:34:07 git restore guacamole.md 
+  210  2025-11-11T14:34:11 cat guacamole.md 
+  211  2025-11-11T14:39:14 ls
+  212  2025-11-11T14:39:32 mkdir pictures
+  213  2025-11-11T14:39:49 touch a.png b.png c.png pictures/cake1.jpg pictures/cake2.jpg
+  214  2025-11-11T14:39:53 git status
+  215  2025-11-11T14:41:01 cd
+  216  2025-11-11T14:41:04 cd BIOS-IN5410/
+  217  2025-11-11T14:41:06 ls
+  218  2025-11-11T14:41:21 nano .gitignore
+  219  2025-11-11T14:41:43 cat .gitignore
+  220  2025-11-11T14:41:59 git status
+  221  2025-11-11T14:43:23 cd recipes/
+  222  2025-11-11T14:43:25 ls
+  223  2025-11-11T14:43:35 cd cakes/
+  224  2025-11-11T14:43:37 ls
+  225  2025-11-11T14:43:46 cd pictures/
+  226  2025-11-11T14:44:00 touch a.png b.png c.png pictures/cake1.jpg pictures/cake2.jpg
+  227  2025-11-11T14:44:10 cd ../
+  228  2025-11-11T14:44:12 ls
+  229  2025-11-11T14:44:15 touch a.png b.png c.png pictures/cake1.jpg pictures/cake2.jpg
+  230  2025-11-11T14:44:20 cd pictures/
+  231  2025-11-11T14:44:21 ls
+  232  2025-11-11T14:44:34 nano .gitignore
+  233  2025-11-11T14:45:06 cat .gitignore 
+  234  2025-11-11T14:45:13 git status
+  235  2025-11-11T14:46:07 cd 
+  236  2025-11-11T14:46:08 ls
+  237  2025-11-11T14:46:18 cd BIOS-IN5410/
+  238  2025-11-11T14:46:20 ls
+  239  2025-11-11T14:46:26 cd recipes/
+  240  2025-11-11T14:46:27 ls
+  241  2025-11-11T14:47:21 ls pictures/
+  242  2025-11-11T14:47:57 mv a.png b.png c.png pictures/
+  243  2025-11-11T14:48:01 ls pictures/
+  244  2025-11-11T14:48:08 git status
+  245  2025-11-11T14:48:45 ls cakes
+  246  2025-11-11T14:49:06 mv a.png b.png c.png pictures/
+  247  2025-11-11T14:49:12 cd cakes
+  248  2025-11-11T14:49:13 ls
+  249  2025-11-11T14:49:32 mv a.png b.png c.png pictures/
+  250  2025-11-11T14:52:48 ll -la
+  251  2025-11-11T14:52:56 cd ../
+  252  2025-11-11T14:52:59 ll -la
+  253  2025-11-11T14:53:37 git status
+  254  2025-11-11T14:54:02 git add .gitignor
+  255  2025-11-11T14:54:06 git add .gitignore
+  256  2025-11-11T14:54:17 ll -la
+  257  2025-11-11T14:54:58 nano .gitignore
+  258  2025-11-11T14:55:33 *.png
+  259  2025-11-11T14:55:33 pictures/
+  260  2025-11-11T14:55:41  git add .gitignore
+  261  2025-11-11T14:55:50 git commit -m "Ignore png files and the pictures folder."
+  262  2025-11-11T14:55:59 git status
+  263  2025-11-11T14:56:39 nano .gitignore 
+  264  2025-11-11T14:57:39 ls
+  265  2025-11-11T14:57:48 cd cakes/
+  266  2025-11-11T14:57:49 ls
+  267  2025-11-11T14:57:52 cd ../
+  268  2025-11-11T14:57:56 ls
+  269  2025-11-11T14:58:58 cd recipes/
+  270  2025-11-11T14:58:59 ls
+  271  2025-11-11T15:01:07 git add a.png
+  272  2025-11-11T15:01:34 git status --ignored
+  273  2025-11-11T15:02:40 ls
+  274  2025-11-11T15:03:58 git add bio/me.txt
+  275  2025-11-11T15:04:05 git status
+  276  2025-11-11T15:04:34 git commit -m "Delete unnessecery file"
+  277  2025-11-11T15:04:39 git status
+  278  2025-11-11T15:06:35 git restore .gitignore 
+  279  2025-11-11T15:06:38 git status
+  280  2025-11-13T10:47:47 ssh int-3
+  281  2025-11-13T10:48:09 pwd
+  282  2025-11-13T10:48:37 cd BIOS-IN5410/
+  283  2025-11-13T10:48:42 ls
+  284  2025-11-13T10:49:10 cd
+  285  2025-11-13T10:49:11 pwd
+  286  2025-11-13T10:49:24 cd BIOS-IN5410/
+  287  2025-11-13T10:49:31 mkdir sbatch_intro
+  288  2025-11-13T10:49:32 ls
+  289  2025-11-13T10:50:16 cd
+  290  2025-11-13T10:50:18 ls
+  291  2025-11-13T10:50:47 cd /projects/ec34/biosin5410/sbatch_intro/test_script.sh 
+  292  2025-11-13T10:50:52 ls
+  293  2025-11-13T10:50:55 pwd
+  294  2025-11-13T10:52:06 cd
+  295  2025-11-13T10:52:09 pwd
+  296  2025-11-13T10:53:09 cd BIOS-IN5410/
+  297  2025-11-13T10:53:18 ls
+  298  2025-11-13T10:53:22 cd sbatch_intro/
+  299  2025-11-13T10:53:35 cp /projects/ec34/biosin5410/sbatch_intro/test_script.sh .
+  300  2025-11-13T10:53:37 ls
+  301  2025-11-13T10:54:04 sbatch test_script.sh 
+  302  2025-11-13T10:54:22 ls
+  303  2025-11-13T10:55:21 cat slurm-2116716.out 
+  304  2025-11-13T10:56:17 nano test_script.sh 
+  305  2025-11-13T11:01:22 sbatch test_script.sh 
+  306  2025-11-13T11:01:38 ls
+  307  2025-11-13T11:01:55 nano slurm-2116765
+  308  2025-11-13T11:03:13 nano test_script.sh 
+  309  2025-11-13T11:07:08 pwd
+  310  2025-11-13T11:07:22 sbatch test_script.sh 
+  311  2025-11-13T11:07:35 ls
+  312  2025-11-13T11:09:06 cat slurm-2116780
+  313  2025-11-13T11:09:18 cat slurm-2116780.out 
+  314  2025-11-13T11:10:40 nano test_script.sh 
+  315  2025-11-13T11:19:32 sbatch test_script.sh 
+  316  2025-11-13T11:19:39 ls
+  317  2025-11-13T11:20:31 cat slurm-2116830.out 
+  318  2025-11-13T11:21:40 nano test_script.sh 
+  319  2025-11-13T11:22:33 sbatch test_script.sh 
+  320  2025-11-13T11:22:53 squeue --me
+  321  2025-11-13T11:23:39 ls
+  322  2025-11-13T11:23:56 cat slurm-2116849.out 
+  323  2025-11-13T11:26:19 sbatch test_script.sh 
+  324  2025-11-13T11:26:23 squeue --me
+  325  2025-11-13T11:27:24 scancel  <2116860> 
+  326  2025-11-13T11:27:36 sbatch test_script.sh 
+  327  2025-11-13T11:27:42 nano test_script.sh 
+  328  2025-11-13T11:28:20 sbatch test_script.sh 
+  329  2025-11-13T11:28:28 squeue --me
+  330  2025-11-13T11:28:49 scancel 2116874
+  331  2025-11-13T11:29:04 squeue --me
+  332  2025-11-13T11:29:53 rm slurm-xxxx*
+  333  2025-11-13T11:30:01 ls
+  334  2025-11-13T11:30:13 rm slurm-*
+  335  2025-11-13T11:30:15 ls
+  336  2025-11-13T11:30:45 rm -r result
+  337  2025-11-13T11:30:47 ls
+  338  2025-11-13T11:31:49 nano test_script.sh 
+  339  2025-11-13T11:32:59 pwd
+  340  2025-11-13T11:33:14 ls
+  341  2025-11-13T11:33:29 mkdir arguments
+  342  2025-11-13T11:33:51 cp ../fasta/*.fasta arguments
+  343  2025-11-13T11:33:54 ls
+  344  2025-11-13T11:34:09 ls arguments/
+  345  2025-11-13T11:34:34 cp test_script.sh arguments/wc_copy.sh
+  346  2025-11-13T11:34:42 ls arguments/
+  347  2025-11-13T11:34:48 cd arguments/
+  348  2025-11-13T11:35:32 nano wc_copy.sh 
+  349  2025-11-13T11:40:16 cd
+  350  2025-11-13T11:40:19 cd BIOS-IN5410/
+  351  2025-11-13T11:40:20 ls
+  352  2025-11-13T11:40:24 cd fasta
+  353  2025-11-13T11:40:26 ls
+  354  2025-11-13T11:42:24 nano wc_copy.sh 
+  355  2025-11-13T11:43:46  cp test_script.sh arguments/wc_copy.sh
+  356  2025-11-13T11:44:01 cd
+  357  2025-11-13T11:44:09 cd BIOS-IN5410/
+  358  2025-11-13T11:44:10 ls
+  359  2025-11-13T11:44:16 cd sbatch_intro/
+  360  2025-11-13T11:44:17 ls
+  361  2025-11-13T11:44:26  cp test_script.sh arguments/wc_copy.sh
+  362  2025-11-13T11:44:38 ls arguments/
+  363  2025-11-13T11:44:51 cd arguments/
+  364  2025-11-13T11:44:54 nano wc_copy.sh 
+  365  2025-11-13T11:50:39 sbatch wc_copy.sh 18SrRNA_Jalview_test.fasta 
+  366  2025-11-13T11:50:57 pwd
+  367  2025-11-13T11:51:06 ls 
+  368  2025-11-13T11:51:13 ls result/
+  369  2025-11-13T11:51:23 cat wc_copy.sh 
+  370  2025-11-13T13:03:59 cd BIOS-IN5410/
+  371  2025-11-13T13:04:02 ls
+  372  2025-11-13T13:04:05 cd sbatch_intro/
+  373  2025-11-13T13:04:06 ls
+  374  2025-11-13T13:04:10 cd arguments/
+  375  2025-11-13T13:04:11 ls
+  376  2025-11-13T13:04:37 ls result/
+  377  2025-11-13T13:04:54 cat slurm-2117068.out 
+  378  2025-11-13T13:05:19 nano wc_copy.sh 
+  379  2025-11-13T13:06:17 sbatch wc_copy.sh 18SrRNA_Jalview_test.fasta 
+  380  2025-11-13T13:06:34 ls
+  381  2025-11-13T13:06:51 cat slurm-2117319.out 
+  382  2025-11-13T13:07:32 ls result/
+  383  2025-11-13T13:07:43 cd
+  384  2025-11-13T13:07:45 cd BIOS-IN5410/
+  385  2025-11-13T13:07:47 ls
+  386  2025-11-13T13:07:50 cd sbatch_intro/
+  387  2025-11-13T13:07:51 ls
+  388  2025-11-13T13:08:00 cat test_script.sh 
+  389  2025-11-13T13:12:34 nano test_script.sh 
+  390  2025-11-13T13:15:20 cd
+  391  2025-11-13T13:15:23 cd BIOS-IN5410/
+  392  2025-11-13T13:15:25 ls
+  393  2025-11-13T13:15:29 cd sbatch_intro/
+  394  2025-11-13T13:15:30 ls
+  395  2025-11-13T13:15:34 cd arguments/
+  396  2025-11-13T13:15:35 ls
+  397  2025-11-13T13:15:39 nano wc_copy.sh 
+  398  2025-11-13T13:18:46 sbatch wc_copy.sh 18SrRNA_Jalview_test.fasta 
+  399  2025-11-13T13:19:17 nano wc_copy.sh 
+  400  2025-11-13T13:20:15 ls
+  401  2025-11-13T13:20:29 cat slurm-2117593.out 
+  402  2025-11-13T13:20:43 ls result/
+  403  2025-11-13T13:20:58 nano wc_copy.sh 
+  404  2025-11-13T13:24:05 ssh int-3
+  405  2025-11-13T13:37:19 cd BIOS-IN5410/
+  406  2025-11-13T13:37:21 ls
+  407  2025-11-13T13:37:54 cp wc_copy.sh scripts/
+  408  2025-11-13T13:38:05 cd sbatch_intro/
+  409  2025-11-13T13:38:07 ls
+  410  2025-11-13T13:38:13 cd arguments/
+  411  2025-11-13T13:38:14 ls
+  412  2025-11-13T13:38:28 cp wc_copy.sh scripts/
+  413  2025-11-13T13:38:39 cp wc_copy.sh /scripts
+  414  2025-11-13T13:41:57 mv wc_copy.sh scripts/ 
+  415  2025-11-13T13:42:01 cd
+  416  2025-11-13T13:42:06 cd BIOS-IN5410/
+  417  2025-11-13T13:42:07 ls
+  418  2025-11-13T13:42:29 mv wc_copy.sh scripts/
+  419  2025-11-13T13:43:18 ls
+  420  2025-11-13T13:43:38 cd scripts/
+  421  2025-11-13T13:44:56 mv ../sbatch_intro/arguments/wc_copy.sh .
+  422  2025-11-13T13:44:58 ls
+  423  2025-11-13T13:46:51 pwd
+  424  2025-11-13T13:46:54 ../
+  425  2025-11-13T13:46:58 pwd
+  426  2025-11-13T13:47:05 cd
+  427  2025-11-13T13:47:12 cd BIOS-IN5410/
+  428  2025-11-13T13:47:17 cd sbatch_intro/
+  429  2025-11-13T13:47:20 cd arguments/
+  430  2025-11-13T13:47:32 for f in $(ls *.fasta);do sbatch ../../scripts/wc_copy.sh $f;done 
+  431  2025-11-13T13:47:43 pwd
+  432  2025-11-13T13:47:52 ../
+  433  2025-11-13T13:48:01 cd
+  434  2025-11-13T13:48:04 cd BIOS-IN5410/
+  435  2025-11-13T13:48:10 cd scripts/
+  436  2025-11-13T13:50:26 git init
+  437  2025-11-13T13:50:31 ls -a
+  438  2025-11-13T13:50:53 git add wc_copy.sh 
+  439  2025-11-13T13:50:58 git commit wc_copy.sh 
+  440  2025-11-13T13:51:28 git commit -m "Adding wc_copy.sh into git repository"
+  441  2025-11-13T13:51:36 git log
+  442  2025-11-13T13:51:46 git --version
+  443  2025-11-13T13:51:57 git spider
+  444  2025-11-13T13:53:36 module spider git
+  445  2025-11-13T13:54:01 modu .l
+  446  2025-11-13T13:54:09 module load  git/2.49.0-GCCcore-14.2.0
+  447  2025-11-13T13:54:18 git --version
+  448  2025-11-13T13:55:06 git remote add origin git@github.com:klaravladimir/scripts.git
+  449  2025-11-13T13:55:35 git push -u origin
+  450  2025-11-13T13:56:20 git push --set-upstream origin main
+  451  2025-11-13T13:56:24 git push -u origin
+  452  2025-11-13T13:56:59 history > history.txt
